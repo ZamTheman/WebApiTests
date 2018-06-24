@@ -1,0 +1,10 @@
+<dx-menu
+  #menu
+  [dataSource]="menuItems"
+  displayExpr="name"
+  [showFirstSubmenuMode]="showFirstSubmenuModes"
+  orientation="horizontal"
+  subMenuDirection="auto"
+  [hideSubmenuOnMouseLeave]="false"
+  (onItemClick)="itemClick($event)">
+</dx-menu>
